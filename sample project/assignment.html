@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Social Links Profile</title>
+    <link rel="shortcut icon" href="favicon-32x32.png" type="image/x-icon">
+    <style>
+        body{
+            background-color: hsl(0, 0%, 8%);
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        form{
+            background-color: hsl(0, 0%, 12%);
+            width: 500px;
+            height: 600px;
+            /* margin: 50px; */
+            border-radius: 20px;
+            margin-top: 20px;
+        }
+        img{
+            width: 100px;
+            border-radius: 350px;
+            margin-top: 30px;
+        }
+        div{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        h1{
+            color: hsl(0, 0%, 100%);
+            font-family: sans-serif;
+            font-size: 25px;
+        }
+        h4{
+            margin-top: 1px;
+            margin-bottom: 5px;
+            color: hsl(75, 94%, 57%);
+            font-family: sans-serif;
+            font-size: 15px;
+        }
+        h3{
+            margin-top: 30px;
+            color: hsl(0, 0%, 100%);
+        }
+        .li{
+            width: 400px;
+            color: hsl(0, 0%, 100%);
+            font-weight: 600;
+            text-decoration: none;
+            font-size: 14px;
+            font-family: sans-serif;
+            height: 40px;
+            background-color: hsl(0, 0%, 20%);
+            border-radius: 10px;
+            text-align: center;
+            margin-top: 10px;
+            display: flex;
+            justify-content: center;
+            align-content: center;
+            flex-direction: column;
+        }
+        .attribution{
+            display: flex;
+            flex-direction: row;
+            margin-top: 20px; 
+            font-size: 15px;
+            gap: 5px;
+            text-align: center;
+        }
+        .attribution a{
+            color: hsl(228, 45%, 44%);
+        }
+        @media screen and (width: 375px){
+            form{
+                width: 350px;
+            }
+            h1{
+                color: hsl(0, 0%, 100%);
+                font-size: 20px;
+            }
+            img{
+                width: 80px;
+            }
+            h4{
+                font-size: 14px;
+                margin-top: 1px;
+            }
+            .li{
+                width: 310px;
+            }
+            h3{
+                font-size: 17px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <form>
+        <div>
+
+            <div class="img">
+                <img src="avatar-jessica.jpeg" alt="Image of Jessica">
+                <h1>Jessica Randall</h1>
+                <h4>London, United Kingdom</h4>
+                <h3>"Front-end developer and avid reader."</h3>
+            </div>
+            
+            <div class="links">
+                <a href="" class="li">GitHub</a>
+                <a href="" class="li">Frontend Mentor</a>
+                <a href="" class="li">LinkedIn</a>
+                <a href="" class="li">Twitter</a>
+                <a href="" class="li">Instagram</a>
+            </div>
+
+              </div>
+        <div class="attribution">
+                <div>Challenge by</div>
+                <div><a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a></div>
+                <div>Coded by</div>
+                <div><a href="#">okparade</a></div>
+        </div>
+    </form>
+</body>
+</html>
